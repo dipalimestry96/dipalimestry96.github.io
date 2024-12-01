@@ -3,16 +3,24 @@ project:
   output-dir: docs
 
 website:
-  title: "MyWebpage"
+  title: "DIPALI VASUDEV MESTRY"
   navbar:
-    left:
+    right:
       - href: index.qmd
-        text: Home
-      - about.qmd
+        text: "HOME"
+      - href: Publications.qmd
+        text: "PUBLICATIONS"
+      - href: activities.qmd
+        text: "ACTIVITIES"
+      - href: blog.qmd
+        text: "BLOG"
+        
 
 format:
   html:
-    theme: cosmo
+    theme: lux
+    fontsize: 1.3em
+    linestretch: 2.
     css: styles.css
     toc: true
 
